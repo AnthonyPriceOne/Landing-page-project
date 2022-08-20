@@ -4,11 +4,10 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .header {
-    height: 72px;
+    height: 80px;
     background-color: #1f2937;
     display: flex;
     align-items: center;
@@ -18,13 +17,12 @@ body {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
-    /* padding: 0 250px; */
 }
+
 ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
-    /* padding: 0 250px; */
 }
 
 li a {
@@ -33,21 +31,82 @@ li a {
     color: #E5E7EB;
 }
 
-.main-section {
-    display: flex;
-}
-
 .first-section {
     display: flex;
+    height: 250px;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 100px 0;
 }
 
-button {
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.h1-left-side {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-bottom: 20px;
+}
+
+.text-left-side {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+#place {
+    width: 700px;
+    height: 200px;
+    text-align: center;
+}
+
+#button-only {
     padding: 10px 25px;
     border-radius: 9px;
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
     font-size: 15px;
+}
+
+.second-section {
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+.element-body {
+    background: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding: 20px;
+    margin: 30px;
+}
+
+.element-text {
+    text-align: center;
 }
 
 .footer {
@@ -62,5 +121,8 @@ button {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+
+
 
 
